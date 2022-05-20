@@ -1,0 +1,6 @@
+export { default as Blog } from './blog/Blog'
+export { default as Curriculum } from './curriculum/Curriculum'
+export { default as Footer } from './footer/Footer'
+export { default as Landing } from './landing/Landing'
+export { default as Main } from './main/Main'
+export { default as Projects } from './projects/Projects'

@@ -1,0 +1,52 @@
+import React from 'react'
+import './projects.css'
+import project01 from '../../assets/project01_gpt3.png'
+import project02 from '../../assets/project_recipee.png'
+import project04 from '../../assets/project_meme.png'
+import project03 from '../../assets/project_travel.png'
+import {FiArrowUpCircle} from 'react-icons/fi'
+
+const Projects = () => {
+  return (
+    <div className='projects' id='Projects'>
+      <h1 className='section__callout'>projects.</h1>
+      <div className='projects__project'>
+        <figure className='project__box'>
+          <img src={project01} alt='project01' />
+          <span className='project__hover-text'>
+            <h1>GPT-3 design</h1>
+            <p>website developed based on a FIGMA file for a ReactJS course</p>
+          </span>
+        </figure>
+        <figure className='project__box'>
+          <img src={project02} alt='project02' />
+          <span className='project__hover-text'>
+            <h1>recipee</h1>
+            <p>personal project developed on ReactJS to explore API management on the front end</p>
+          </span>
+        </figure>
+        <figure className='project__box'>
+          <img src={project03} alt='project01' />
+          <span className='project__hover-text'>
+            <h1>travel journal</h1>
+            <p>website developed for a React course exploring useState and objects</p>
+          </span>
+        </figure>
+        <figure className='project__box'>
+          <img src={project04} alt='project01' />
+          <span className='project__hover-text'>
+            <h1>meme gen</h1>
+            <p>website developed for a React course, exploring external api and RNG</p>
+          </span>
+        </figure>
+      </div>   
+      <div className='arrow__up1'>
+        <a href="#Main">
+          <FiArrowUpCircle size={30}/>
+        </a>
+      </div>
+    </div>
+  )
+}
+
+export default Projects
