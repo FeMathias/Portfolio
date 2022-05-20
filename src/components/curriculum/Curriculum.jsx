@@ -55,7 +55,7 @@ const Curriculum = () => {
               <p className='tecnology-name'>DESIGN TOOLS</p>
               <p className='tecnology-description'>Adobe Photoshop and Adobe Illustrator</p>
               <p className='tecnology-name'>LANGUAGES</p>
-              <p className='tecnology-description'>Portuguese(mother language), english(fluent), spanish(can read/listen)</p>
+              <p className='tecnology-description'>Portuguese(native language), english(fluent), spanish(can read/listen)</p>
             </div>
           </div>
         </div>

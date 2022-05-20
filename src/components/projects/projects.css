@@ -70,3 +70,17 @@
   color: var(--color-landing);
   margin-top: 40px;
 }
+
+@media screen and (max-width:550px) {
+  .projects__project {
+    display: block;
+  }
+
+  .project__box {
+    margin-bottom: 10px;
+  }
+
+  .project__hover-text {
+    font-size: 0.8rem;
+  }
+}

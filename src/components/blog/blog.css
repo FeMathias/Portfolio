@@ -65,20 +65,31 @@
   
   .blog__excerpt {
     display: flex;
-    flex-direction: column;
-    margin: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    width: 100%;
   }
 
   .blog__excerpt-text > h1 {
     font-size: 1rem;
+    text-align: center;
   }
 
   .blog__excerpt-text > p {
-    font-size: 0.8rem;
-    width: 250px;
+    font-size: 0.7rem;
+    width: 200px;
   }
 
   .blog__container {
-    margin: 0px 20px 0px 40px;
+    margin: 0px 20px 0px 20px;
+    padding: 10px 0px;
+  }
+
+  .section__title {
+    width: 350px;
   }
 }
