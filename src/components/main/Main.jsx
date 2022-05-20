@@ -1,7 +1,7 @@
 import React from 'react'
 import './main.css'
 import '../navbar/navbar.css'
-import fotoFM from '../../assets/kblo.jpg'
+import fotoFM from '../../assets/foto-perfil.jpg'
 import Navbar from '../navbar/Navbar'
 import { TiSocialGithub, TiSocialInstagram, TiSocialLinkedin, TiSocialTwitter } from 'react-icons/ti'
 import {AiTwotoneMail} from 'react-icons/ai'
