@@ -16,8 +16,8 @@ const Curriculum = () => {
             <p className='work-duration'>2014 - 2017</p>
             <div className='work-general'>
               <p className='work-name'>Milani Arquitetura, Florianópolis/Santa Catarina - Brazil</p>
-              <p className='work-description'>2014-2016 intern architect</p>
-              <p className='work-description'>2016-2017 junior architect</p>
+              <p className='work-description'>2014-2016, intern architect</p>
+              <p className='work-description'>2016-2017, junior architect</p>
             </div>
           </div>
           <div className='unity'>
@@ -35,7 +35,7 @@ const Curriculum = () => {
             <p className='work-duration'>2012 - 2017</p>
             <div className='work-general'>
               <p className='work-name'>Federal University of Santa Catarina (UFSC)</p>
-              <p className='work-description'>2012-2017 bachelor degree in architecture and urbanism</p>
+              <p className='work-description'>2012-2017, bachelor degree in architecture and urbanism</p>
             </div>
           </div>
         </div>
