@@ -26,14 +26,14 @@ const Main = () => {
               <div className='network'> 
                 <h1>my networks</h1>
                 <div className='network__icons'>
-                  <a href="https://github.com/FeMathias" rel='noreferrer' target='_blank'>
+                  <a href="https://github.com/FeMathias" rel='noreferrer' target='_blank' className="icon-links">
                     <TiSocialGithub size={55}/>
                   </a>
-                  <a href="https://instagram.com/FeMathiass" rel='noreferrer' target='_blank'>
+                  <a href="https://instagram.com/FeMathiass" rel='noreferrer' target='_blank' className="icon-links">
                   <TiSocialInstagram size={35} /> </a>
-                  <a href='https://www.twitter.com/femathias' rel='noreferrer' target='_blank'> <TiSocialTwitter size={40}/></a>
-                  <a href="https://www.linkedin.com/in/felipe-mathias/" rel='noreferrer' target= '_blank'><TiSocialLinkedin size={50} /> </a>
-                  <a href='mailto:fmathias.dev@gmail.com'><AiTwotoneMail size={35}/></a>
+                  <a href='https://www.twitter.com/femathias' rel='noreferrer' target='_blank' className="icon-links"> <TiSocialTwitter size={40}/></a>
+                  <a href="https://www.linkedin.com/in/felipe-mathias/" rel='noreferrer' target= '_blank' className="icon-links"><TiSocialLinkedin size={50} /> </a>
+                  <a href='mailto:fmathias.dev@gmail.com' className="icon-links"><AiTwotoneMail size={35}/></a>
                 </div>
               </div>
             </div>
