@@ -51,6 +51,10 @@
   min-width: 100px;
 }
 
+.network__icons {
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 800px) {
   .main__container-img > h1 {
     font-size: 1.5rem;
@@ -131,10 +135,17 @@
 }
 
 .icon-links {
-  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 2px;
 }
 
 .icon-links:hover {
-  background-color: var(--font-box);
+  background-color: var(--color-boxes);
   transition: 0.5s;
 }
