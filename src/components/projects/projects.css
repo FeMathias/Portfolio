@@ -19,7 +19,8 @@
   height: fit-content
 }
 
-.project__box > img {
+
+.project__box-image  {
   width: 100%;
   margin-bottom: -4px;
 }

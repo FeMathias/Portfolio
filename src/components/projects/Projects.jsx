@@ -12,28 +12,32 @@ const Projects = () => {
       <h1 className='section__callout'>projects.</h1>
       <div className='projects__project'>
         <figure className='project__box'>
-          <img src={project01} alt='project01' />
-          <span className='project__hover-text'>
-            <h1>GPT-3 design</h1>
-            <p>website developed based on a FIGMA file for a ReactJS course</p>
-          </span>
+          <a href="https://github.com/FeMathias/website" alt='projeto01'  target='_blank' rel='noreferrer'>
+            <img src={project01} alt='project01' className='project__box-image'/>
+            <span className='project__hover-text'>
+              <h1>GPT-3 design</h1>
+              <p>website developed based on a FIGMA file for a ReactJS course</p>
+            </span>
+          </a>
         </figure>
         <figure className='project__box'>
-          <img src={project02} alt='project02' />
+          <img src={project02} alt='project02' className='project__box-image'/>
           <span className='project__hover-text'>
             <h1>recipee</h1>
             <p>personal project developed on ReactJS to explore API management on the front end</p>
           </span>
         </figure>
         <figure className='project__box'>
-          <img src={project03} alt='project01' />
-          <span className='project__hover-text'>
-            <h1>travel journal</h1>
-            <p>website developed for a React course exploring useState and objects</p>
-          </span>
+          <a href="https://github.com/FeMathias/Travel" alt='projeto03' target='_blank' rel='noreferrer'>
+            <img src={project03} alt='project01' className='project__box-image'/>
+            <span className='project__hover-text'>
+              <h1>travel journal</h1>
+              <p>website developed for a React course exploring useState and objects</p>
+            </span>
+          </a>
         </figure>
         <figure className='project__box'>
-          <img src={project04} alt='project01' />
+          <img src={project04} alt='project01' className='project__box-image'/>
           <span className='project__hover-text'>
             <h1>meme gen</h1>
             <p>website developed for a React course, exploring external api and RNG</p>
