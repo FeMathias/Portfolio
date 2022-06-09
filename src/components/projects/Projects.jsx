@@ -32,7 +32,7 @@ const Projects = () => {
           </a>
         </figure>
         <figure className='project__box'>
-          <img src={project02} alt='animais_fantasticos' className='project__box-image'/>
+          <img src={animais} alt='animais_fantasticos' className='project__box-image'/>
           <span className='project__hover-text'>
             <h1>recipee</h1>
             <p>project developed for Orgamid's ES6 JavaScript course</p>
