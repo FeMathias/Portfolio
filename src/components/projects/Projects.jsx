@@ -34,14 +34,14 @@ const Projects = () => {
         <figure className='project__box'>
           <img src={animais} alt='animais_fantasticos' className='project__box-image'/>
           <span className='project__hover-text'>
-            <h1>recipee</h1>
+            <h1>animais fantásticos</h1>
             <p>project developed for Orgamid's ES6 JavaScript course</p>
           </span>
         </figure>
         <figure className='project__box'>
           <img src={project02} alt='project02' className='project__box-image'/>
           <span className='project__hover-text'>
-            <h1>animais fantásticos</h1>
+            <h1>recipee</h1>
             <p>personal project developed on ReactJS to explore API management on the front end</p>
           </span>
         </figure>
