@@ -41,7 +41,7 @@ const Projects = () => {
         <figure className='project__box'>
           <img src={project02} alt='project02' className='project__box-image'/>
           <span className='project__hover-text'>
-            <h1>recipee</h1>
+            <h1>animais fantásticos</h1>
             <p>personal project developed on ReactJS to explore API management on the front end</p>
           </span>
         </figure>
